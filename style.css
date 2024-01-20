@@ -1,0 +1,35 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+.parent div{
+    width: 400px;;
+    height: 400px;
+    border-radius: 200px;
+    background-image:url(image/download.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    background-position: center;
+
+}
+
+
+
+
+/* .parent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 30px 50px;
+    
+  }
+  .parent div {
+    width: 200px;
+    height: 200px;
+    background-image: url("https://img.freepik.com/free-photo/mystery-box-with-gifts-concept_23-2150063190.jpg?w=900&t=st=1705754008~exp=1705754608~hmac=b98887798585a5b6b3425c58c0f490b53b1cbc12186991a016778e519979ffdc");
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 50%;
+  } */

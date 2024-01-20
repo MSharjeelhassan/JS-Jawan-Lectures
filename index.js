@@ -1,8 +1,8 @@
-alert("hello javasriprt, it is for user only")
+// alert("hello javasriprt, it is for user only")
 
 //console.log("it is for programmer;s comment")
 
-var person= "zaid";
+// var person= "zaid";
 
 //var 10person (illegal)
 // var person10 (legal)
@@ -26,10 +26,10 @@ var person= "zaid";
 // console.log (firstName)
 
 
-var a=10;
+// var a=10;
 // var b=a+1;
 // var b=++a;
- var b=a++
+//  var b=a++
 // var b=--a
 
 // console.log(a, "A value")
@@ -37,8 +37,8 @@ var a=10;
 // var b=--a
 
 // var b=--a*(a*2)
-console.log(b,"B value")
-console.log(a, "A value")
+// console.log(b,"B value")
+// console.log(a, "A value")
 
 
 // Prompt practise
@@ -90,7 +90,7 @@ console.log(a, "A value")
 
 
 
-var arr = ["asad", "BAQAR", "C","Rahman"]
+// var arr = ["asad", "BAQAR", "C","Rahman"]
 // console.log(arr)
 
 // arr [3]="saad"
@@ -136,11 +136,11 @@ var arr = ["asad", "BAQAR", "C","Rahman"]
 
 
 
-console.log(arr)
+// console.log(arr)
 
-var a=arr.splice(2,0,"1","2","3","4")
-console.log(a)
-console.log(arr)
+// var a=arr.splice(2,0,"1","2","3","4")
+// console.log(a)
+// console.log(arr)
 
 // var a=["abc", "kjl", "yut", "omn", "abc","mno","xyz"];
 // var b=[1,2,3,4,5];
@@ -260,15 +260,15 @@ console.log(arr)
 //     console.log(i+a[j])
 //    }
 // }
-var a = ["A", "B","C", "D","E", "f"];
-var b = [1,2,3,4,5,6,7,8,9];
+// var a = ["A", "B","C", "D","E", "f"];
+// var b = [1,2,3,4,5,6,7,8,9];
 
-for(i=0; i<b.length;i++)
-{
-   for( j=0;j<a.length;j++){
-    console.log(b[i]+a[i])
-   }
-}
+// for(i=0; i<b.length;i++)
+// {
+//    for( j=0;j<a.length;j++){
+//     console.log(b[i]+a[i])
+//    }
+// }
 
 
 
@@ -317,7 +317,7 @@ for(i=0; i<b.length;i++)
 // //     console.log(word);
 
 
-var a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae maiores voluptas Saturday porro dicta sint non ullam distinctio quisquam vero";
+// var a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae maiores voluptas Saturday porro dicta sint non ullam distinctio quisquam vero";
 
 // var word = "Saturday";
 
@@ -334,23 +334,23 @@ var a = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quae ma
 
 // // Ab hm log is Saturday ko replace karenge new word sa
 
-var word = "Saturday";
-var secondWord = "Kal chhhuttti hai";
-var startingText;
-var endingText;
+// var word = "Saturday";
+// var secondWord = "Kal chhhuttti hai";
+// var startingText;
+// var endingText;
 
-for (var i=0; i<a.length;i++){
-    var checkLetter = a.slice(i, i+8);
-    if(checkLetter== word){
-        console.log(checkLetter,i);
-        startingText = a.slice(0,i);
-console.log(startingText, i);
-        endingText = a.slice(i+8);
-        console.log(startingText);
-        console.log(endingText);
+// for (var i=0; i<a.length;i++){
+//     var checkLetter = a.slice(i, i+8);
+//     if(checkLetter== word){
+//         console.log(checkLetter,i);
+//         startingText = a.slice(0,i);
+// console.log(startingText, i);
+//         endingText = a.slice(i+8);
+//         console.log(startingText);
+//         console.log(endingText);
 
-    }
-}
+//     }
+// }
 
 // a = startingText + secondWord + endingText;
 
@@ -365,48 +365,48 @@ console.log(startingText, i);
 // ceil apko agae ka number dayta hy r floor pechlay number round off karkey dauga
 
 
-var a = 3.55;
-var b = Math.round(a);
+// var a = 3.55;
+// var b = Math.round(a);
 
-console.log(b);
+// console.log(b);
 
 
 // Math.ceil is an operator in jS jo apko forcefully next number pa lay jata hy yani round off karkey next number pa lay jaega
 
-var a = 46.1;
-var b = Math.round(a);
-console.log(b);
+// var a = 46.1;
+// var b = Math.round(a);
+// console.log(b);
 
-var a = 46.1;
-var b = Math.ceil(a);
-console.log(b);
+// var a = 46.1;
+// var b = Math.ceil(a);
+// console.log(b);
 
 
-var a = 16.9;
-var b = Math.floor(a);
-console.log(b);
+// var a = 16.9;
+// var b = Math.floor(a);
+// console.log(b);
 
 
 // Generating Random number after decimal 16 numbers will given in radom, its value floats between 0.0000000000000000 to 0.9999999999999999
 
-var a = Math.random(a);
-var b = Math.round(a);
+// var a = Math.random(a);
+// var b = Math.round(a);
 // console.log(a.lenght); we cannot count the lenght of number, .lenght only works on string.
-console.log(a, b);
+// console.log(a, b);
 
 
 // Dice wali example
-var dice = Math.random();
-dice = dice*6;
-var diceQty = Math.ceil(dice);
-console.log(dice, diceQty);
+// var dice = Math.random();
+// dice = dice*6;
+// var diceQty = Math.ceil(dice);
+// console.log(dice, diceQty);
 
 // Box change color
-var box = Math.random();
-console.log(box);
-box = box*255;
-var boxCol = Math.floor(box);
-console.log(box, boxCol);
+// var box = Math.random();
+// console.log(box);
+// box = box*255;
+// var boxCol = Math.floor(box);
+// console.log(box, boxCol);
 
 
 // Ways to convert String to Numbers
@@ -416,106 +416,106 @@ console.log(box, boxCol);
 // 3. parsefloat
 // 4 adding a + sign
 
-var a = "100.09";
+// var a = "100.09";
 
 // var b = Number(a);
 // var b =parseInt(a);
-var b =parseFloat(a);
+// var b =parseFloat(a);
 // var b =+a;
 
-console.log(b + 33);
+// console.log(b + 33);
 
 // Convert number to String
 
-var a = 100.99;
-var b = a.toString();
-console.log(b);
+// var a = 100.99;
+// var b = a.toString();
+// console.log(b);
 
 
 
 // Fixing the decimal point to given number, see the method toFixed, as we put 2 in bracket we see only 2 numbers after decimal.
 // the imp part is tofixed converts the value of variable to string.
-var a = 34.342559;
-console.log(a*2000);
+// var a = 34.342559;
+// console.log(a*2000);
 
-var b = a.toFixed(2);
-console.log(b*2000);
-console.log(typeof b);
+// var b = a.toFixed(2);
+// console.log(b*2000);
+// console.log(typeof b);
 
 // Date and time
 
-var currentDate = new Date("2023-12-01T12:30:50");
-// agr new Date() bracket empty rakhenge tou aj ki date ayegi 
-console.log(currentDate.getDate(), "Dates");
-console.log(currentDate.getFullYear(), "Year");
-console.log(currentDate.getDay(), "Day");
-console.log(currentDate.getMonth(), "month");
-console.log(currentDate.getHours(), "Ghanta");
-console.log(currentDate.getMinutes(), "Mins");
-console.log(currentDate.getSeconds(), "Sec");
-console.log(currentDate.getMilliseconds(), "Millisec");
+// var currentDate = new Date("2023-12-01T12:30:50");
+//  agr new Date() bracket empty rakhenge tou aj ki date ayegi 
+// console.log(currentDate.getDate(), "Dates");
+// console.log(currentDate.getFullYear(), "Year");
+// console.log(currentDate.getDay(), "Day");
+// console.log(currentDate.getMonth(), "month");
+// console.log(currentDate.getHours(), "Ghanta");
+// console.log(currentDate.getMinutes(), "Mins");
+// console.log(currentDate.getSeconds(), "Sec");
+// console.log(currentDate.getMilliseconds(), "Millisec");
 // through above method we can get date day month and etc of any given date, based on the defined var, like in this example as currentDate
 
 
 
-var currentDate = new Date();
+// var currentDate = new Date();
 
-currentDate.setDate(15);
-console.log(currentDate.getDate(), "Dates");
+// currentDate.setDate(15);
+// console.log(currentDate.getDate(), "Dates");
 
-currentDate.setFullYear(2024);
-console.log(currentDate.getFullYear(), "Year");
+// currentDate.setFullYear(2024);
+// console.log(currentDate.getFullYear(), "Year");
 
 
-console.log(currentDate.getDay(), "Day");
+// console.log(currentDate.getDay(), "Day");
 
-currentDate.setMonth(2);
-console.log(currentDate.getMonth(), "month");
+// currentDate.setMonth(2);
+// console.log(currentDate.getMonth(), "month");
 
-currentDate.setHours(4);
-console.log(currentDate.getHours(), "Ghanta");
+// currentDate.setHours(4);
+// console.log(currentDate.getHours(), "Ghanta");
 
-currentDate.setMinutes();
-console.log(currentDate.getMinutes(), "Mins");
+// currentDate.setMinutes();
+// console.log(currentDate.getMinutes(), "Mins");
 
-currentDate.setSeconds(65);
-console.log(currentDate.getSeconds(), "Sec");
+// currentDate.setSeconds(65);
+// console.log(currentDate.getSeconds(), "Sec");
 
-currentDate.setMilliseconds(250);
-console.log(currentDate.getMilliseconds(), "Millisec");
+// currentDate.setMilliseconds(250);
+// console.log(currentDate.getMilliseconds(), "Millisec");
 
 
 
 // Now we want to calculate the difference between two dates.
 
-var dateOfBirth = new Date("01-01-2000");
-var currentDate = new Date();
+// var dateOfBirth = new Date("01-01-2000");
+// var currentDate = new Date();
 
-var currentTime = currentDate.getTime(); 
-var dateOfBirth = dateOfBirth.getTime();
-// In above lines 130 and 131 the time we will get will be calculated in milliseconds, from 1st Jan 1970, this date is default date in JS
-var diff = currentTime - dateOfBirth;
+// var currentTime = currentDate.getTime(); 
+// var dateOfBirth = dateOfBirth.getTime();
+// // In above lines 130 and 131 the time we will get will be calculated in milliseconds, from 1st Jan 1970, this date is default date in JS
+// var diff = currentTime - dateOfBirth;
 
-console.log(currentTime);
-console.log(dateOfBirth);
-console.log(diff);
+// console.log(currentTime);
+// console.log(dateOfBirth);
+// console.log(diff);
 
-var gg = Math.ceil(0.0000000000001);
-console.log(gg);
+// var gg = Math.ceil(0.0000000000001);
+// console.log(gg);
 
-var gt = Math.floor(1.00);
-console.log(gt);
+// var gt = Math.floor(1.00);
+// console.log(gt);
 
-console.log(Math.floor(45));
+// console.log(Math.floor(45));
 
-console.log(Math.ceil(12.0));
+// console.log(Math.ceil(12.0));
 
 
-var d = ["sun", "mon", "tue", "wed", "thurs", "fri", "sat"];
-var y = new Date();
-// console.log(y);
-var day = d[y.getDay()];
-console.log(day);
+// var d = ["sun", "mon", "tue", "wed", "thurs", "fri", "sat"];
+// var y = new Date();
+// // console.log(y);
+// var day = d[y.getDay()];
+// console.log(day);
 
 /*
 var a = new Date();
@@ -571,28 +571,28 @@ xyzz();
 // calcAge("02-14-2008")
 // calcAge("06-15-1990")
 
-function test(a) {
-    var age = new Date();
-    var userAge = new Date(a)
-    console.log(age)
-    console.log(userAge)
-    // var calcAge;
-    // console.log(calcAge=Number(a)-age);
-    console.log(age.getFullYear()-userAge.getFullYear())
-    // console.log(userAge.getFullYear())
+// function test(a) {
+//     var age = new Date();
+//     var userAge = new Date(a)
+//     console.log(age)
+//     console.log(userAge)
+//     // var calcAge;
+//     // console.log(calcAge=Number(a)-age);
+//     console.log(age.getFullYear()-userAge.getFullYear())
+//     // console.log(userAge.getFullYear())
 
-}
-// test('01-1-2001')
-// test("02-14-2008")
-test("06-15-1990")
+// }
+// // test('01-1-2001')
+// // test("02-14-2008")
+// test("06-15-1990")
 
 
 /*return ka rules 1. return pa fuction khatam hojata hy is ka bad scope main kuch bhi hoga wo nai chalega 2. function ka bad jo likha hoga wo return apko daydega 3. return ka bad only 1 hi value wo lay sakta hy(comma laga kar koi dosri value nai day saktey, even agr array bhi hogi tou wo bhi aik hi index ki value layga)*/
 
-function abc() {
-    return "hello world"
-}
-var helloWorld = console.log(abc())
+// function abc() {
+//     return "hello world"
+// }
+// var helloWorld = console.log(abc())
 
 
 // function calDiscount(price, discount){
@@ -605,12 +605,12 @@ var helloWorld = console.log(abc())
 // this amount can not be accessed after the scope ends, thats why JS given error as amount is not defined because the var is defined in function scope.
 // in order to use this amount we will use "return", this return will give out the value of amount, and the return will follow, the menitoned rules.
 
-function calDiscount(price, discount){
-    var amount = price - discount
-   return amount
-}
- var a = calDiscount(600, 60)
-console.log(a)
+// function calDiscount(price, discount){
+//     var amount = price - discount
+//    return amount
+// }
+//  var a = calDiscount(600, 60)
+// console.log(a)
 
 
 // calDiscount(100, 10)
@@ -625,53 +625,150 @@ console.log(a)
 // example x = 32243;
 // expected output = 34223
 
-function reverse (a){
-    var rev = a.toString().split("").reverse().join("");
+// function reverse (a){
+//     var rev = a.toString().split("").reverse().join("");
 
-    return rev
-}
-var z = reverse(12345)
-console.log(z)
+//     return rev
+// }
+// var z = reverse(12345)
+// console.log(z)
 
 
 // Write a JS function that checks whether a passed string is a palindrome or not ? A palindrome is word, phrase or sequesnce that reads the same backward as forward, e.g madam or nurses run.
 
-function palindrome(userString){
-var reverse = userString.split("").reverse().join("")
-if(userString === reverse){console.log("ok")}else {console.log("not palindrome")}
-}
-palindrome("madaam")   
+// function palindrome(userString){
+// var reverse = userString.split("").reverse().join("")
+// if(userString === reverse){console.log("ok")}else {console.log("not palindrome")}
+// }
+// palindrome("madaam")   
 
 // another test from sir, Write a JS function that accepts a string as a parameter and converts the first letter of each word into upper case. example string : "the quick brown fox" Expected output : "The Quick Brown Fox"
 
-function capital(userData){
-var a = userData.split(" ");
-console.log(a);
-for (var i=0; i<a.length;i++){
-    a[i]=a[i].slice(0, 1).toUpperCase()+a[i].slice(1).toLowerCase();
+// function capital(userData){
+// var a = userData.split(" ");
+// console.log(a);
+// for (var i=0; i<a.length;i++){
+//     a[i]=a[i].slice(0, 1).toUpperCase()+a[i].slice(1).toLowerCase();
 
-    }
-a= a.join(" ")
-return a;
-}
-var b = capital("my name is sharjeel");
-console.log(b)
+//     }
+// a= a.join(" ")
+// return a;
+// }
+// var b = capital("my name is sharjeel");
+// console.log(b)
 
 
 // Another test question Write a JS function that takes an array of numbers and find the lowest and greatest numbers, sample array [1,2,3,4,5] expected output[1,5]
 
-function maxMin(input){
-    var a = input;
-for(var i =0; i<a.length ; i++)
-{a[i]=Number(a[i])
-console.log(a[i])
+// function maxMin(input){
+//     var a = input;
+// for(var i =0; i<a.length ; i++)
+// {a[i]=Number(a[i])
+// console.log(a[i])
+// }
+
+// var a = Math.max(a[i]);
+// var b = Math.min(a[i]);
+// return a + b
+
+// }
+// maxMin([100, 60, 70, 80, 90])
+
+
+// Switch Statement
+
+// var day = "sat"
+// switch(day){
+//     case "mon":
+//         console.log("Monday alert");
+//         break
+//  case "tues":
+//     console.log("Tuesday alert");
+// break
+//     case "wed" :
+//         console.log("Wednesday alert")
+// break
+//         case "thur" :
+//             console.log("Thursady alert")
+// break
+//             case "fri":
+//                 console.log("Friday agaya hy bhai")
+//                 break
+//             case "sat":
+//                 case "sun":
+//                     console.log("chutti alert bhai log")
+// break
+//                     default:
+//                         console.log("is hafte main nai hy")
+// }
+// var day = 'thur'
+
+// if (day === 'mon') {
+//     console.log('Monday agaya');
+//     console.log('coding start');
+
+//   } else if (day === 'tues') {
+//     console.log('Prepare code practise');
+
+//   } else if (day === ('wed' || 'thur')) {
+//     console.log('Write code examples');
+
+//   } else if (day === 'fri') {
+//     console.log('jumma hy bhai');
+
+//   } else if (day === 'sat' || 'sun') {
+//     console.log('Enjoy the weekend :D');
+
+//   } else {
+//     console.log('Not a valid day!');
+//   }
+  
+
+// While loop
+
+// var i = 0;
+// while(i<10){
+// i++
+// console.log(i)
+// }
+
+
+// DO while loop
+
+// var i = 0;
+// do{
+//     i++
+//     console.log(i)
+// }
+// while(i<0)
+
+
+function clickbuton(){
+    console.log("Button/paragraph clicked");
 }
 
-var a = Math.max(a[i]);
-var b = Math.min(a[i]);
-return a + b
+// here i have created a function and used this fuction in index.html by calling this fuction in an event of click button, we can create an event of click button on anything
+
+// Now lets make a image flip game in css and JS, for this i will go to the css and html.
+
+function flip(element, value) 
+{console.log(element, value)
+    if(value) {
+    element.style.backgroundImage = "url('image/game.jpg')"
+}
+
+else{
+    element.style.backgroundImage = "url('image/another.jpg')"
+}
 
 }
-maxMin([100, 60, 70, 80, 90])
 
 
+// function flip(element,value) {
+//     console.log (element,value)
+//     if (value){
+//         element.style.backgroundImage = "url('http://img.freepik.com/free-photo/diamonds-arrangement-pink-background_23-2149673629.jpg?w=826&t=st=1705754267~exp=1705754867~hmac=6e6df7a2497150ddc7d9725b060c71f5c5cc2f8b4ade3d5c78a5359b00ff2a64')"
+//     } else {
+//           element.style.backgroundImage = "url('http://img.freepik.com/free-vector/man-saying-no-concept-illustration_114360-14192.jpg?size=626&ext=jpg')"
+        
+//     } }
