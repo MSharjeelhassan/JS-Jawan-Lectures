@@ -743,25 +743,25 @@ xyzz();
 // while(i<0)
 
 
-function clickbuton(){
-    console.log("Button/paragraph clicked");
-}
+// function clickbuton(){
+//     console.log("Button/paragraph clicked");
+// }
 
 // here i have created a function and used this fuction in index.html by calling this fuction in an event of click button, we can create an event of click button on anything
 
 // Now lets make a image flip game in css and JS, for this i will go to the css and html.
 
-function flip(element, value) 
-{console.log(element, value)
-    if(value) {
-    element.style.backgroundImage = "url('image/game.jpg')"
-}
+// function flip(element, value) 
+// {console.log(element, value)
+//     if(value) {
+//     element.style.backgroundImage = "url('image/game.jpg')"
+// }
 
-else{
-    element.style.backgroundImage = "url('image/another.jpg')"
-}
+// else{
+//     element.style.backgroundImage = "url('image/another.jpg')"
+// }
 
-}
+// }
 
 
 // function flip(element,value) {
@@ -772,3 +772,29 @@ else{
 //           element.style.backgroundImage = "url('http://img.freepik.com/free-vector/man-saying-no-concept-illustration_114360-14192.jpg?size=626&ext=jpg')"
         
 //     } }
+
+function abc(message){
+    console.log(message);
+}
+
+function checkField(element){//element jo hy yahan wo koi in built function nai hy yeh just parameter name hy
+    if(element.value.length < 3){
+        alert(`Input should be grater than 3 letters`)
+    }
+}
+
+function addValue(){
+    console.log("Button Click");
+    var a = document.getElementById("inp"); //yeh document.getElementbyId aik in built property hy to call by id.
+    console.log(a)
+}
+function addValue(){
+    console.log("Button Click");
+    var a = document.getElementById("inp"); //yeh document.getElementbyId aik in built property hy to call by id.
+    var b = document.getElementById("inp2");
+
+    console.log(a.value);
+    b.value = a.value
+}
+
+
