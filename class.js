@@ -49,7 +49,7 @@
 
 
 // What we are doinh here is we are making an HTML element
-
+/* THIs is my class code
 var a = document.getElementById('main');
 function createElem(){
     var p = document.createElement('P');
@@ -72,8 +72,36 @@ function createElem(){
 
 function del(){
     a.innerHTML="";
+    
     // let b =document.getElementById('input').value = '';
     
 
 }
+*/
 
+//Yahn SIR KA CODE HY TO DO LIST WALA UPAR JO LIKHA HY WO MAIN NA CLASS MAIN KHUD TRY KIYA THA, BELOW THIS LINE IS SIRS CODE EXTRACTED FROM THE IMAGES I TOOK FROM CLASS
+
+
+var a= document.getElementById("main");
+var inpu = document.getElementById("input");
+
+function createElem(){
+var p = document.createElement('P');
+var txt = document.createTextNode(inpu.value);
+p.appendChild(txt);
+p.setAttribute('class','pera');
+p.setAttribute('id','p1');
+
+var delBtn = document.createElement('button');
+var delLabel = document.createTextNode('Delete');
+delBtn.appendChild(delLabel);
+delBtn.setAttribute('onclick','delTodo(this)')
+p.appendChild(delBtn)
+
+a.appendChild(p);
+}
+
+function delTodo(elem){
+    var p= elem.parentNode
+    p.remove();
+}
