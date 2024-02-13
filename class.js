@@ -12,11 +12,11 @@
 
 // }
 
-function addData (){
-    var ab =document.getElementById("input");
-    var bc = document.getElementById("display");
-    bc.innerHTML = ab.value; //hm na is main ab ki value paragraph main dali hy tou kiya yeh hy ka ab ki vaue ab.value sa li r usko equal to bc para jo ka input value nai hy usey bc.innerHTML sa enter kara di thats it.!!
-}
+// function addData (){
+//     var ab =document.getElementById("input");
+//     var bc = document.getElementById("display");
+//     bc.innerHTML = ab.value; //hm na is main ab ki value paragraph main dali hy tou kiya yeh hy ka ab ki vaue ab.value sa li r usko equal to bc para jo ka input value nai hy usey bc.innerHTML sa enter kara di thats it.!!
+// }
 
 
 // var pera = document.getElementsByTagName("P");
@@ -25,12 +25,55 @@ function addData (){
 // pera[0].style.color ="red";
 // console.log(pera[0]);
 
-var parents = document.getElementById("parent");
-var son = parents.getElementsByTagName("P");
-console.log(parents);
-console.log(son);
-// son.style.color = "blue"
+// var parents = document.getElementById("parent");
+// var son = parents.getElementsByTagName("P");
+// console.log(parents);
+// console.log(son);
+// son.style.color = "blue" wrong code
 
-for(let i =0; i<son.length;i++){
-    son[i].style.color ="blue"
+// for(let i =0; i<son.length;i++){
+//     son[i].style.color ="blue"
+// }
+
+// console.log(document);//this shows you the document i.e html
+
+// console.log(document.childNodes); //this gives you the child of document that is Doc type and HTML, in the form of array
+
+// console.log(document.childNodes[0]); //give the first child of document's childNode [0]
+// console.log(document.childNodes[1]); //give the second child of document's childNode [1]
+
+// console.log(document.childNodes[1].childNodes);
+
+// var parents = document.getElementById("parent");
+// console.log(parents.lastChild);
+
+
+// What we are doinh here is we are making an HTML element
+
+var a = document.getElementById('main');
+function createElem(){
+    var p = document.createElement('P');
+    let b = document.getElementById('input');
+    b = b.value;
+    p.innerHTML = b;
+    p.setAttribute('class','pera');  //this create the attribute in an element, its syntax is first write the attribute than its value, and value can be multiple meaning aik sa zada class 
+    p.setAttribute('id','p1');
+    console.log(p);
+    a.appendChild(p);
+    // console.log(b)//this is for my understanding
+    var btn = document.createElement("button");
+    var txt = document.createTextNode('abc');
+    btn.setAttribute('class','border');
+    btn.appendChild(txt);
+    a.appendChild(btn);
+
+
 }
+
+function del(){
+    a.innerHTML="";
+    // let b =document.getElementById('input').value = '';
+    
+
+}
+
